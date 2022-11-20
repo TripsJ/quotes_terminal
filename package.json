@@ -1,9 +1,12 @@
 {
-  "name": "quotes_terminal",
+  "name": "@tripsj/quotes_terminal",
   "version": "1.0.0",
-  "description": "Trainig the use ofd api's using the axios Javascriot library",
+  "description": "Trainig the use of api's using the axios Javascriot library",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "quotes": "./index.js"
+  },
   "scripts": {
     "test": "node index.js"
   },
