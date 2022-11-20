@@ -21,6 +21,7 @@ async function formatQuotes(count) {
   quotes.quotes.forEach((quote) => {
     const len = quote.text.length;
     // console.log(len);
+    // eslint-disable-next-line no-console
     if (terminalWidht < len) { console.log(chalk[color[Math.floor(Math.random() * color.length)]](`${quote.text} \n ${quote.author.padStart(terminalWidht / 2)}`)); } else { console.log(chalk[color[Math.floor(Math.random() * color.length)]](`${quote.text} \n ${quote.author.padStart(len / 2)}\n \n`)); }
   });
 }
