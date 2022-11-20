@@ -8,7 +8,7 @@ const quotenumber = process.argv[2];
 
 const color = ['red', 'green', 'blue', 'magenta', 'cyan', 'gray'];
 
-async function getQuote(count) {
+export default async function getQuote(count) {
   const response = await axios.get(`https://goquotes-api.herokuapp.com/api/v1/random?count=${count}`);
   return response.data;
 }
