@@ -13,6 +13,7 @@ this was created as a personal exercise and will be used in a futur one
 
 # Changelog
 
-v 1.0.2 added executable referene and fixed a typo
-v 1.0.3 updated Readme and release info
++ 1.0.2 added executable referene and fixed a typo
++ 1.0.3 updated Readme and release info
+
 
