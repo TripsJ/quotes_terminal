@@ -1,10 +1,12 @@
+#!/usr/bin/env node
+
 /* eslint-disable no-restricted-syntax */
 import axios from 'axios';
 import terminalSize from 'term-size';
 import chalk from 'chalk';
 
 const quotenumber = process.argv[2];
-// console.log(quotenumber);
+console.log(quotenumber);
 
 const color = ['red', 'green', 'blue', 'magenta', 'cyan', 'gray'];
 

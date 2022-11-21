@@ -1,12 +1,12 @@
 {
   "name": "@tripsj/quotes_terminal",
-  "version": "1.0.0",
+  "version": "1.0.3",
+  "bin": {
+    "quoteterm": "./index.js"
+  },
   "description": "Trainig the use of api's using the axios Javascriot library",
   "main": "index.js",
   "type": "module",
-  "bin": {
-    "quotes": "./index.js"
-  },
   "scripts": {
     "test": "node index.js"
   },
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/TripsJ/quotes_terminal.git"
   },
-  "author": "Jérçome Trips",
+  "author": "Jérôme Trips",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TripsJ/quotes_terminal/issues"
